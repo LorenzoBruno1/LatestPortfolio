@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(../img/victoire-joncheray-wVQFrEZCThs-unsplash.jpg);
+    background-position:center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+    /* background: linear-gradient(#234E70,#8AAAE5); */
+    min-height: 100vh;
+}
+a{
+    color: inherit;
+    text-decoration:inherit;
+}
+.mainpart{
+    display:flex;
+}
+.cont{
+    margin-top:20em;
+    margin-left:25em;
+}
+.intro{
+    font-size: 250px;
+    color:#FBF8BE;
+}
+.init,.socials,.mail{
+    font-family: 'Poppins';
+    font-size: 20px;
+    color:#FDFCDF;
+}
+.init{
+    margin-bottom: 1em;
+    font-size: 25px;
+}
+.tw:hover,.ig:hover{
+    cursor: pointer;
+    color: #cf0;
+}
+.verticale-c{
+    line-height: 10px;
+    height: 100%;
+    width:50px;
+    position: fixed;
+}
+ .breakdiv{
+    position: absolute;
+    border-left: 2px solid #FDFCDF;
+    height:100px;
+    margin-left:35px;
+    margin-top: 100px;
+} 
+.verticale{
+    color:#FDFCDF;
+    position: absolute;
+    writing-mode:vertical-rl;
+    text-orientation: mixed;
+    vertical-align: middle;
+    margin-top: 220px;
+    margin-left: 30px;
+    font-family: 'Poppins';
+}
+.breakdiv2{
+    border-left: 2px solid #FDFCDF;
+    height:100px;
+    margin-top: 375px;
+    position: absolute;
+    margin-left:35px;
+}
+.Home{
+    color:#FDFCDF;
+    position: absolute;
+    writing-mode:vertical-rl;
+    text-orientation: mixed;
+    vertical-align: middle;
+    margin-top: 500px;
+    margin-left: 30px;
+    font-family: 'Poppins';
+}
+.Home:hover{
+    text-decoration: underline 2px #FBF8BE;
+    color:#FBF8BE;
+    cursor: pointer;
+}
+.breakdiv3{
+    border-left: 2px solid #FDFCDF;
+    height:100px;
+    margin-top: 575px;
+    position: absolute;
+    margin-left:35px;
+}
+.in,.em{
+    color:rgb(241, 241, 182);
+}
