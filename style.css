@@ -64,7 +64,7 @@ ul li{
 .breakdiv3{
     border-left: 2px solid #FDFCDF;
     height:100px;
-    margin-top: 575px;
+    margin-top: 560px;
     position: absolute;
     margin-left:35px;
 }
@@ -81,7 +81,7 @@ ul li{
     color:#FDFCDF;
     font-size:15px;
     text-align: center;
-    margin-top: 685px;
+    margin-top: 665px;
     margin-left: 5px;
 }
 .tw:hover, .li:hover, .gh:hover{
